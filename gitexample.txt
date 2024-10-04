@@ -5,3 +5,5 @@ Working at Morningstar India
 This is a git example file.
 
 Created branch named as "Feature", now trying to commit this edited file in my branch.
+
+Created branch named as "Example", now trying to commit this edited file in my example branch.
