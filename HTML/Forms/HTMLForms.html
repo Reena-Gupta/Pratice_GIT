@@ -1,0 +1,53 @@
+<!doctype html>
+    <head>
+        <Title>Forms Training</Title>
+        <!-- <style>
+            form {
+                border: black solid 1px;
+                padding: 10px 20px;
+                margin: 50px auto;
+            }
+        </style> -->
+    </head>
+    <body>
+        <form action="GoodHealth.html" method="post">
+            <fieldset>
+                <legend>
+                    Employee information
+                </legend>
+            Enter name: <input type = "text" name="name" id="name" placeholder="Your name" required/><br><br>
+            Enter Password: <input type ="password" name="'pwd" id="'pwd" placeholder="Use alphanumeric" required /><br><br>
+            Enter Email: <input type="email" name="email" id="email" placeholder="Your email id" required/><br><br>
+            Enter Salary: <input type="number" placeholder="Your Base Salary" name="Salary" id="Salary" min=0 max="700000" required/><br><br>
+            Enter Designation: <select id="designation">
+                <optgroup label="Designation">
+                    <option> Clerk</option>
+                    <option> Executive </option>
+                    <option> Manager </option>
+                    <option> GM </option>
+                    <option> CEO </option>
+                </optgroup>
+            </select><br><br>
+            Enter Department: <select id="Department">
+                <optgroup label="HR">
+                    <option> Training </option>
+                    <option> L&D </option>
+                </optgroup>
+                <optgroup label="IT">
+                    <option> Front end Developer </option>
+                    <option> Back end developer </option>
+                    <option>Designer</option>
+                </optgroup>
+            </select><br><br>
+            Work Experience: <input type="radio" name="weorkexp" id="'workexp">Yes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="weorkexp" id="'workexp">NO 
+            <br><br>
+            Enter Vehicles: <input type="checkbox" name="vehicle" id="vehicle" > Two Wheeler &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="vehicle" id="vehicle" > Four Wheeler
+            <br><br>
+
+            <input type = "submit" name="submit" id="submit"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type = "reset" name="reset" id="reset">
+        </form>
+    </body>
+</html>
