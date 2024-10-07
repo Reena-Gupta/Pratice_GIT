@@ -14,5 +14,9 @@ Later i will pull this..
 
 Another line added....
 
+<<<<<<< HEAD
 Myself reena
 
+=======
+hellloooooo archi
+>>>>>>> reena
